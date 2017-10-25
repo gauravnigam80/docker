@@ -1,0 +1,6 @@
+#run the below command 
+docker build -f Dockerfile -t demo .
+#docker images to check the image
+docker images
+docker run -p 8085:8085
+# Go to browser and check the url : localhost:8085/demo/hello is working or not
